@@ -1,5 +1,3 @@
-//docker run --name postgres -e POSTGRES_DB=vapor -e POSTGRES_USER=vapor -e POSTGRES_PASSWORD=23822382 -p 5432:5432 -d postgres
-
 // swift-tools-version:4.0
 import PackageDescription
 
@@ -21,4 +19,6 @@ let package = Package(
         .testTarget(name: "AppTests", dependencies: ["App"])
     ]
 )
+
+//docker run --name postgres -e POSTGRES_DB=vapor -e POSTGRES_USER=vapor -e POSTGRES_PASSWORD=23822382 -p 5432:5432 -d postgres
 
